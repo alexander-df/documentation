@@ -1,0 +1,7 @@
+name: essentialsEnv
+channels:
+  - defaults
+dependencies:
+  - python
+  - notebook
+prefix: /home/alexanderandrade_ec/miniconda3/envs/essentialsEnv

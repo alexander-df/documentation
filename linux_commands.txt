@@ -1,0 +1,31 @@
+# linux commands
+- df -h: check disk space
+- mkdir: new directory (folder)
+- cd . ..: move into directories (change directory)
+- touch: create file
+- ls, ls -l, ls -la, ls -lSh: list files in directory
+- ls -d: show directories
+- ls *.txt, ls raw_*: wildcards (search by)
+- pwd: print working directory
+- readlink -f linux_commands.txt: get path of file
+- cp: copy
+- mv: move
+- rm, rm -r, rm -f: remove, remove directory, remove force
+- sudo apt install: install pkgs
+- sudo apt remove: remove pkgs
+- sudo apt update && sudo apt upgrade -y: update
+- curl -O https://repo.anaconda.com...: download
+- wget -O anaconda.sh https://repo.anaconda.com...: download
+- bash: install from installer
+- python -V: check version
+- file: file description
+- nano: edit text file
+- head, tail: show first, last rows of text files
+- less: show text file content (q, /)
+- type cd: command cd type
+- alias: command alias
+- help, man, info, whatis: command documentation
+- info cd > info_cd.txt: save commando output into text file
+- info ls >> info_cd.txt: concatenate content to save into text file
+- ls klajslkdj 2> error.txt: save errors
+

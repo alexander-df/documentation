@@ -1,0 +1,3 @@
+# git commands
+- sudo apt install git: install git
+- 

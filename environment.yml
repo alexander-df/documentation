@@ -1,7 +1,9 @@
-name: essentialsEnv
+name: sklearnEnv
 channels:
   - defaults
 dependencies:
-  - python
+  - scikit-learn=1.4.2
   - notebook
-prefix: /home/alexanderandrade_ec/miniconda3/envs/essentialsEnv
+  - pandas=2.2
+  - matplotlib=3.8.4
+prefix: /home/alexanderandrade_ec/miniconda3/envs/sklearnEnv

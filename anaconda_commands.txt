@@ -1,0 +1,24 @@
+# anaconda commands
+- conda env list: list every conda env
+- conda create --name datamesh python=3.11 pandas: create conda env
+- conda create --name datamesh2 --copy --clone datamesh
+- conda activate datamesh
+- conda deactivate
+- conda remove --name datamesh2
+- conda list: pkgs installed
+- conda list pandas
+- conda update pandas
+- conda install pandas=1.2
+- conda remove pandas
+- conda install --channel conda-forge boltons: install from channel
+- conda list --revisions: check history changes on your env
+- conda revision 0: return to revision 0 state
+- conda env export, conda env export --no-builds, 
+- conda env export --from-history --file environment.yml
+- conda env create --file environment.yml
+Note: check mamba and snakemake
+
+# uninstall anaconda
+conda activate
+conda init --reverse --all
+rm -rf anaconda3

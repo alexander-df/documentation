@@ -1,4 +1,5 @@
 # linux commands
+- jupyter nbconvert --to markdown main_notebook.ipynb
 - df -h: check disk space
 - mkdir: new directory (folder)
 - cd . ..: move into directories (change directory)
